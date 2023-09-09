@@ -1,7 +1,4 @@
 // Enter all your detials in this file
-// Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
@@ -27,12 +24,6 @@ import tailwind from "./assets/techstack/tailwind.png";
 import vscode from "./assets/techstack/vscode.png";
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
-
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
 
 // Enter your Personal Details here
 export const personalDetails = {
@@ -64,7 +55,7 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Student",
+    Position: "School student",
     Company: "Nazarbayev Intellectual School of Physics and Mathematics in Almaty",
     CompanyLink: "https://fmalmnis.vercel.app/en",
     Location: "Almaty",
@@ -78,6 +69,14 @@ export const eduDetails = [
     Location: "National School of Physics & Math, Almaty",
     Type: "Full Time",
     Duration: "Sep 2019 - April 2021",
+  },
+  {
+    Position: "B2 French language level",
+    Company: `Nazarbayev Intellectual School of Physics and Mathematics in Almaty`,
+    CompanyLink: "https://fmalmnis.vercel.app/en",
+    Location: "Almaty",
+    Type: "Full Time",
+    Duration: "Sep 2019 - Current",
   },
 ];
 
@@ -111,7 +110,7 @@ export const projectDetails = [
     title: "Freestyler",
     image: projectImage1,
     description: `AI guide to any location of the world. Users can choose NYC, for instance, and ask what to do there for 5 days or they can choose Rome and ask which restaurants are there. The places they choose is shown on a 3D model of the earth.`,
-    techstack: "HTML/CSS, JavaScript",
+    techstack: "React, Tailwind CSS, Python, FastAPI",
     previewLink: "https://freestyler.vercel.app/",
     githubLink: "https://github.com/sagyn-s/Freestyler-Website",
   },

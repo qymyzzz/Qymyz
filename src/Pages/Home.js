@@ -81,7 +81,7 @@ function Home() {
           
         </h2>
       </div>
-      <div className="mt-5 md:mt-0">
+      <div className="mt-5 md:mt-0 flex justify-center items-center">
         <img ref={myimageref} className="w-1/2 md:ml-auto rounded-full max-w-full h-auto gradient-border" src={img} alt="Sagyn" title="Sagyn"/>
       </div>
     </main>
