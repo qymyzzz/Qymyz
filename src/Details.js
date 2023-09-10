@@ -76,7 +76,7 @@ export const eduDetails = [
     CompanyLink: "https://fmalmnis.vercel.app/en",
     Location: "Almaty",
     Type: "Full Time",
-    Duration: "Sep 2019 - Current",
+    Duration: "Sep 2019 - Present",
   },
 ];
 
