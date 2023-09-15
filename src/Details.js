@@ -118,8 +118,7 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "sagyn813sagyn@gmail.com",
-  phone: "+77078365814",
+  email: "sagynjumadildayev@gmail.com",
 };
 
 export const honorsDetails = [
