@@ -11,9 +11,10 @@ function Honors() {
           Honors
         </h1>
         {React.Children.toArray(
-          honorsDetails.map(({ Award, Competition, HonorLink, Date, Type }) => (
+          honorsDetails.map(({ Award, Description, Competition, HonorLink, Date, Type }) => (
             <Honor
               award={Award}
+              description={Description}
               competition={Competition}
               honorlink={HonorLink}
               date={Date}

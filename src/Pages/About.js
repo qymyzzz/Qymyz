@@ -1,50 +1,23 @@
 import React from "react";
-import Work from "../Components/Work";
-import { eduDetails, personalDetails, workDetails } from "../Details";
+import { personalDetails } from "../Details";
+import resume from "../assets/Sagyn's CV.pdf";
 
 function About() {
-  
+  const createMarkup = () => ({ __html: personalDetails.about });
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           About Me
         </h1>
-        <p className="text-content py-8 lg:max-w-3xl">{personalDetails.about}</p>
-      </section>
-      <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Work Experience
-        </h1>
-        {React.Children.toArray(
-          workDetails.map(({ Position, Company, CompanyLink, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              companylink={CompanyLink}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
-        )}
-      </section>
-      <section>
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
-          Education
-        </h1>
-        {React.Children.toArray(
-          eduDetails.map(({ Position, Company, CompanyLink, Location, Type, Duration }) => (
-            <Work
-              position={Position}
-              company={Company}
-              companylink={CompanyLink}
-              location={Location}
-              type={Type}
-              duration={Duration}
-            />
-          ))
-        )}
+        <img className="float-right ml-10 w-1/4" src={personalDetails.otherimg} />
+        <p 
+          className="text-content text-justify py-8 text-lg"
+          dangerouslySetInnerHTML={createMarkup()} 
+        >
+            
+        </p>
+        <p className="text-content text-justify text-lg">Here is my <a href={resume} target="_blank" class="link" rel="noopener noreferrer">resume</a>.</p>
       </section>
     </main>
   );

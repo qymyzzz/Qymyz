@@ -1,20 +1,20 @@
 import React from "react";
-import "./Honor.css";
+import "./Activity.css";
 
-function Honor({ award, description, competition, honorlink, date, type }) {
+function Activity({ position, company, description, companylink, duration }) {
+  const createMarkup = () => ({ __html: description });
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
-        <h1 className="font-bold text-content md:text-lg lg:text-xl">{award}</h1>
+        <h1 className="font-bold text-content md:text-lg lg:text-xl">{position}</h1>
         <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
-          {type}
+            {duration}
         </div>
       </div>
       <div className="flex justify-between pt-2">
         <div class="max-w-[500px]">
-          <h2 className="text-content md:text-lg lg:text-sm">{description}</h2>
+          <h2 className="text-content md:text-lg lg:text-sm" dangerouslySetInnerHTML={createMarkup()}></h2>
         </div>
-        <p className="text-content text-xs md:text-sm font-light pl-1 min-w-fit">{date}</p>
       </div>
       <div className="flex justify-between pt-2">
         <div className="flex flex-col md:flex-row">
@@ -32,7 +32,7 @@ function Honor({ award, description, competition, honorlink, date, type }) {
               </svg>
             </div>
         
-            <a rel="noopener noreferrer" target="_blank" href={honorlink} className="text-content text-xs md:text-sm font-light link">{competition}</a>
+            <a rel="noopener noreferrer" target="_blank" href={companylink} className="text-content text-xs md:text-sm font-light link">{company}</a>
           </div>
         </div>
       </div>
@@ -40,4 +40,4 @@ function Honor({ award, description, competition, honorlink, date, type }) {
   );
 }
 
-export default Honor;
+export default Activity;
