@@ -83,7 +83,7 @@ export const volunteerDetails = [
   {
     Position: "Admin",
     Company: `"Nazarbayev Intellectual School Olympiads and Science Fairs" Telegram channel`,
-    Description: `I post about recent achievments of NIS students and upcoming competitions along with 3 other admins.`,
+    Description: `I post about recent achievments of NIS students and upcoming competitions along with 2 other admins. Channel has over 2000 followers.`,
     CompanyLink: "https://t.me/NISolympiads19",
     Duration: "October 2023 - Present",
   },
