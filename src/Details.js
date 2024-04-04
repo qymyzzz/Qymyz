@@ -179,6 +179,14 @@ export const honorsDetails = [
     Type: "National",
   },
   {
+    Award: "Bronze medal",
+    Description: "Awarded for my project Freestyler, which you can find in the \"Projects\" section, among 450 participants from Hong Kong, Kazakhstan, Kyrgyzstan, and Turkmenistan",
+    Competition: "Infomatrix-Asia",
+    HonorLink: "https://infomatrix.asia/",
+    Date: "December, 2023",
+    Type: "International",
+  },
+  {
     Award: "Gold medal",
     Description: "Full scholarship to attend Higher School of Economics in Russia, Moscow. Top 1/550 participants from 10+ countries.",
     Competition: "HSE International Olympiad",
@@ -193,6 +201,22 @@ export const honorsDetails = [
     HonorLink: "https://it-edu.com/mwj/en/",
     Date: "February - March, 2022",
     Type: "International",
+  },
+  {
+    Award: "Silver medal",
+    Description: "Top 33 from around 1,500 participants in Kazakhstan",
+    Competition: "Regional Olympiad in Informatics",
+    HonorLink: "https://daryn.kz/respa/",
+    Date: "January, 2024",
+    Type: "Regional",
+  },
+  {
+    Award: "Silver medal",
+    Description: "Top 70 from around 1,500 participants in Kazakhstan",
+    Competition: "Regional Olympiad in Informatics",
+    HonorLink: "https://daryn.kz/respa/",
+    Date: "February, 2023",
+    Type: "Regional",
   },
   {
     Award: "Second-place winner in Almaty + Global nominee",
@@ -220,7 +244,7 @@ export const honorsDetails = [
   },
   {
     Award: "Bronze medal",
-    Description: "Top 149 from around 250,000 participants in Kazakhstan",
+    Description: "Top 149 from around 2,000 participants in Kazakhstan",
     Competition: "Regional Olympiad in Informatics",
     HonorLink: "https://daryn.kz/respa/",
     Date: "February, 2021",
