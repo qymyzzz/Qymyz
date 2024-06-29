@@ -50,18 +50,27 @@ export const academicDetails = [
     Duration: "Sep 2019 - Present",
   },
   {
-    Position: "Student",
-    Company: "Yandex Lyceum",
-    Description: "Learned basics of Python in the first year. In the second year I studied SQL, CSS, HTML, Flask, Pygame, and PyQT",
-    CompanyLink: "https://lyceum.yandex.ru/",
-    Duration: "October 2019 - April 2021",
-  },
-  {
     Position: "Full-stack developer intern",
     Company: "nFactorial Incubator",
     Description: `In the span of 10 weeks, created an AI based tour guide website. It got more than 1000 visitors from all over the globe. You can read about it more <a href="/projects" class="link">here</a>. At the end, I got a chance to participate in the Final Demo Day as one of the top 20 best AI apps and got the best full-stack developer award.`,
     CompanyLink: "https://incubator.nfactorial.school/",
     Duration: "June 2023 - August 2023",
+  },
+  {
+    Position: "Participant",
+    Company: "NURIS ABC Incubation",
+    Description: `Created a smart warning bracelet for deaf people; I was the CEO and developer of an Audio Classification Algorithm; Gathered a team of 4;
+    Conducted a market research and 20 problem interviews with deaf; Sold 7 smart bracelets;
+    Among 20 out of 200 applicant startups`,
+    CompanyLink: "https://nuris.nu.edu.kz/incubation",
+    Duration: "March 2024 - June 2024",
+  },
+  {
+    Position: "Student",
+    Company: "Yandex Lyceum",
+    Description: "Learned basics of Python in the first year. In the second year I studied SQL, CSS, HTML, Flask, Pygame, and PyQT",
+    CompanyLink: "https://lyceum.yandex.ru/",
+    Duration: "October 2019 - April 2021",
   },
   {
     Position: "Student",
@@ -86,6 +95,16 @@ export const volunteerDetails = [
     Description: `I post about recent achievments of NIS students and upcoming competitions along with 2 other admins. Channel has over 2000 followers.`,
     CompanyLink: "https://t.me/NISolympiads19",
     Duration: "October 2023 - Present",
+  },
+  {
+    Position: "Member of the Organizational Committee",
+    Company: `World Space Olympiad`,
+    Description: `World Space Olympiad is an international science fair competition with 500+ participants from
+    7 countries; write and translate to Kazakh the necessary regulation documents for the
+    organisation; grade the works of participants in the 1st stage; cooperation with the Kazakhstan
+    Ministry of Education`,
+    CompanyLink: "https://wso.bc-pf.org/",
+    Duration: "April 2024 - Present",
   },
   {
     Position: "Founder",
