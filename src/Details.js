@@ -13,13 +13,14 @@ export const personalDetails = {
   otherimg: Sagyn,
   about: `I'm a high school junior from Kazakhstan at  <a href="https://fmalmnis.vercel.app/en" class="link" target="_blank">Nazarbayev Intellectual School of Physics and Mathematics in Almaty</a>. 
   <br><br>During my sophomore year, I did research on L-tromino tilings, and further made it to the <a href="https://www.societyforscience.org/press-release/regeneron-isef-2023-special-awards-winners/#:~:text=MATH042%20%E2%80%94%20L%2DTromino%20Tilings%20for%20Portions%20of%20Square%20Lattice%0ASagyn%20Jumadildayev%2C%20Nazarbayev%20Intellectual%20School%20of%20Physics%20and%20Math%2C%20Almaty%2C%20Kazakhstan" class="link" target="_blank">ISEF special award</a>.
-  <br><br>After that, I was accepted to <a href="https://incubator.nfactorial.school/" class="link" target="_blank">nFactorial Incubator</a>. There I created an AI tour guide website startup.`
+  <br><br>After that, I was accepted to <a href="https://incubator.nfactorial.school/" class="link" target="_blank">nFactorial Incubator</a>. There I created an AI tour guide website startup.
+  <br><br>I like spending my free time listening to Turkic folk music and reading Wikipedia. I mostly read about Eurasian nomads, Native Americans, and Northeast Asia. `
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/sagynjumadildayev/",
-  github: "https://github.com/sagyn-s",
+  github: "https://github.com/qymyzzz",
   instagram: "https://www.instagram.com/qymyzz/",
 };
 
@@ -28,7 +29,7 @@ export const foreignDetails = [
   {
     Position: "French language",
     Company: "Nazarbayev Intellectual School of Physics and Mathematics in Almaty",
-    Description: "My current level of French is <b>B2</b>",
+    Description: "My current level of French is <b>B1</b>",
     CompanyLink: "https://fmalmnis.vercel.app/en",
     Duration: "Sep 2019 - Present",
   },
