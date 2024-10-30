@@ -110,7 +110,7 @@ export const volunteerDetails = [
   {
     Position: "Founder",
     Company: `NIS PhM Almaty Python Club`,
-    Description: `Opened this club with my friend Aizhan.  We teach the basics of Python along with more sophisticated topics such as software development`,
+    Description: `I am the founder and president of this club.  We teach the basics of Python along with more sophisticated topics such as software development`,
     CompanyLink: "",
     Duration: "September 2023 - Present",
   },
